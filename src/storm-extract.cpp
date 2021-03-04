@@ -238,7 +238,7 @@ vector<string> searchArchive() {
             tSearchResult r;
             r.strFileName = findData.szPlainName;
             r.strFullPath = findData.szFileName;
-            r.lFileSize = findData.dwFileSize;
+            r.lFileSize = findData.FileSize;
 
 
             if (r.strFullPath.find(strSearchPattern) != std::string::npos) {
